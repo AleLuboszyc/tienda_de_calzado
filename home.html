@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./estilo.css">
+    <title>Home</title>
+</head>
+
+<body>
+    <section class="contenido">
+        <div class="mostrador" id="mostrador">
+            <div class="fila">
+                <div class="item" onclick="cargar(this)">
+                    <div class="contenedor-foto">
+                        <img src="./images/img01.jpg" alt="">
+                        <P class="descripcion"> Nike Modelo 1</P>
+                        <span class="precio">$ 78.560</span>
+                    </div>
+                </div>
+                <div class="item" onclick="cargar(this)">
+                    <div class="contenedor-foto">
+                        <img src="./images/img02.jpg" alt="">
+                        <P class="descripcion"> Nike Modelo 2</P>
+                        <span class="precio">$ 88.713</span>
+                    </div>
+                </div>
+                <div class="item" onclick="cargar(this)">
+                    <div class="contenedor-foto">
+                        <img src="./images/img03.jpg" alt="">
+                        <P class="descripcion"> Nike Modelo 3</P>
+                        <span class="precio">$ 97.578</span>
+                    </div>
+                </div>
+                <div class="item" onclick="cargar(this)">
+                    <div class="contenedor-foto">
+                        <img src="./images/img04.jpg" alt="">
+                        <P class="descripcion"> Nike Modelo 4</P>
+                        <span class="precio">$ 64.851</span>
+                    </div>
+                </div>
+            </div>
+            <div class="fila">
+                <div class="item" onclick="cargar(this)">
+                    <div class="contenedor-foto">
+                        <img src="./images/img05.jpg" alt="">
+                        <P class="descripcion"> Nike Modelo 5</P>
+                        <span class="precio">$ 91.330</span>
+                    </div>
+                </div>
+                <div class="item" onclick="cargar(this)">
+                    <div class="contenedor-foto">
+                        <img src="./images/img06.jpg" alt="">
+                        <P class="descripcion"> Nike Modelo 6</P>
+                        <span class="precio">$ 89.700</span>
+                    </div>
+                </div>
+                <div class="item" onclick="cargar(this)">
+                    <div class="contenedor-foto">
+                        <img src="./images/img07.jpg" alt="">
+                        <P class="descripcion"> Nike Modelo 7</P>
+                        <span class="precio">$ 99.847</span>
+                    </div>
+                </div>
+                <div class="item" onclick="cargar(this)">
+                    <div class="contenedor-foto">
+                        <img src="./images/img08.jpg" alt="">
+                        <P class="descripcion"> Nike Modelo 8</P>
+                        <span class="precio">$ 87.801</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="seleccion" id="seleccion">
+            <div class="cerrar" onclick="cerrar()">
+                &#x2715
+            </div>
+            <div class="info">
+                <img src="./images/img01.jpg" alt="" id="img">
+                <h2 id="modelo">Nike Modelo 1</h2>
+                <p id="descripcion">Descripcion Modelo 1</p>
+
+                <span class="precio" id="precio">$ 78560</span>
+
+                <div class="fila">
+                    <div class="talle">
+                        <label for="">TALLE</label>
+                        <select name="" id="">
+                            <option value="">36</option>
+                            <option value="">37</option>
+                            <option value="">38</option>
+                            <option value="">39</option>
+                            <option value="">40</option>
+                            <option value="">41</option>
+                            <option value="">42</option>
+                            <option value="">43</option>
+                            <option value="">44</option>
+                            <option value="">45</option>
+                            <option value="">46</option>
+                        </select>
+                    </div>
+                    <button>Agregar Al Carrito</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="./logica.js"></script>
+</body>
+
+</html>
