@@ -1,1 +1,1 @@
-# tienda_de_calzado
+# Inicio proyecto. Tienda de Calzado. 
